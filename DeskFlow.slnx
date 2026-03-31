@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DeskFlow.API/DeskFlow.API.csproj" />
+    <Project Path="src/DeskFlow.Core/DeskFlow.Core.csproj" />
+    <Project Path="src/DeskFlow.Infrastructure/DeskFlow.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DeskFlow.Tests/DeskFlow.Tests.csproj" />
+  </Folder>
+</Solution>

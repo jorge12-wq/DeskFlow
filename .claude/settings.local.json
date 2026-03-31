@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet add:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet ef:*)",
+      "Bash(dotnet tool:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(cd:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(npm init:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(taskkill /F /IM \"DeskFlow.API.exe\")",
+      "Bash(taskkill /F /PID 8680)"
+    ]
+  }
+}

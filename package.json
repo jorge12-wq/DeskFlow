@@ -1,0 +1,22 @@
+{
+  "name": "deskflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "concurrently --names \"API,WEB\" --prefix-colors \"blue,green\" \"npm run api\" \"npm run web\"",
+    "api": "dotnet run --project src/DeskFlow.API/DeskFlow.API.csproj",
+    "web": "npm run dev --prefix src/DeskFlow.Web",
+    "build": "npm run build --prefix src/DeskFlow.Web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
